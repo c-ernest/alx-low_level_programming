@@ -72,7 +72,7 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-}#include "main.h"
+#include "main.h"
 
 /**
  * times_table - function to print the 9x table, starting with 0
