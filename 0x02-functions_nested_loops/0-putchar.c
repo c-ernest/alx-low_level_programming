@@ -7,11 +7,13 @@
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
+	char *sh = "_putchar"
 
-	for (i = 0; i < 8; i++)
-		put(word[i]);
-	put('\n');
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 	return (0);
 }
