@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_mul - multiplication 
+ * mul - multiplication 
  * @a: first integer
  * @b: second integer
  *
