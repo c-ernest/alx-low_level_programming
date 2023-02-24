@@ -7,23 +7,29 @@
  */
 int main(void)
 {
-	long prime = 612852475143, dsn;
+	long int n;
 
-	while (dsn < (prime / 2))
+	n = 612852475143;
+
+	long int div = 2, ans = 0, maxFac;
+
+	while (n != 0)
 	{
-		if ((prime % 2) == 0)
+		if (n % div != 0)
 		{
-			prime /= 2;
-			continue;
+			div = div + 1;
 		}
-		for (dsn = 3; dsn < (prime / 2); dsn += 2)
+		else
 		{
-			if ((prime % dsn) == 0)
+			maxFac = n;
+			if (n == 1)
 			{
-				prime /= dsn;
+				printf("%d", maxFac);
+				ans = 1;
+				break;
 			}
 		}
 	}
-	printf("%d\n", prime);
+	printf('\n');
 	return (0);
 }
