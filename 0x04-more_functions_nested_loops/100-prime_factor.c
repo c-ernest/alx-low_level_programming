@@ -22,6 +22,7 @@ int main(void)
 		else
 		{
 			maxFac = n;
+			n = n /div;
 			if (n == 1)
 			{
 				printf("%d", maxFac);
