@@ -19,5 +19,5 @@ char *_strcpy(char *dest, char *src)
 		index++;
 	}
 
-	retrun (dest);
+	return (dest);
 }
