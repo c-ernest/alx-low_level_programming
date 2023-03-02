@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *leet - Encodes a string to 1337
+ * leet - Encodes a string to 1337
  * @str - string to encode
  *
  * Return: pointer to the encoded string
@@ -10,7 +10,7 @@
 char *leet(char *str)
 {
 	int index1 = 0, index2;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', 'T'};
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[index1])
 	{
